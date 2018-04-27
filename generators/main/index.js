@@ -19,7 +19,7 @@ module.exports = class extends Generator {
       docker : this.options.docker,
       name : this.options.microerviceName || 'myapp',
       description : 'My cool TypeScript microservice',
-      port : '3001',
+      port : '8081',
       version : '1.0.0',
       apiRoot : '/api/v1',
     };
